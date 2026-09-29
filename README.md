@@ -1,38 +1,99 @@
-# FitDesi AI
+<p align="center">
+  <img src="assets/marketing/fitdesi-hero-banner.png" alt="FitDesi AI — Offline-First Fitness Intelligence for Android" width="100%">
+</p>
 
-Offline-first Pakistani fitness and nutrition companion for Android.
+# FitDesi AI — Offline-First Fitness Intelligence
 
-## Product overview
+FitDesi AI is an Android fitness application with a useful local core and South Asian depth. It brings daily fitness context, on-device coaching, structured workouts, practical planning, progress tools, and carefully separated nutrition data into one coherent experience.
 
-FitDesi AI is an early Android preview for people who want practical workout, nutrition, and fitness tools that remain useful without a paid model API or always-on connection. It combines locally persisted activity data, Pakistani food references, calculators, structured routine tools, and a deterministic offline Coach.
+## Useful with or without the cloud
 
-## Problem
+FitDesi is designed to remain useful without a paid model API or an always-on connection. Profile, routine, workout, calorie, and preference data stay within the app's existing persistence layers, while deterministic local engines provide the core Coach and planning behavior.
 
-Many fitness apps assume continuous connectivity, generic food catalogues, and one-size-fits-all recommendations. Pakistani users need familiar food references, locally usable planning tools, and honest guidance that works even when a remote service is unavailable.
+- **Local-first by design:** essential coaching, tracking, calculators, routines, and saved preferences continue to work without production Remote AI.
+- **South Asian depth with honest data states:** culturally familiar foods can be discovered without presenting unverified nutrition as fact.
+- **Practical continuity:** workouts, routines, logs, and preferences persist locally across normal use and compatible signed APK updates.
 
-## Solution
+## Product experience
 
-FitDesi AI keeps its core experience local-first. Profile, routine, workout, calorie, and preference data stay within the app's existing persistence layers. The current Coach uses deterministic FitDesi knowledge and bounded profile context to provide structured, general fitness guidance without claiming to be a medical or live-LLM service.
+The feature artwork in this section uses generated marketing compositions based on FitDesi product visuals. It illustrates the capabilities described below; it is not an unedited Android capture or release-evidence set.
 
-## Core features
+### Offline AI Coach
 
-- Home dashboard with real calorie, macro, hydration, activity, and workout state
-- Workout dashboard, active session tracking, completion summaries, history, and analytics
-- Build Routine and a persistent multi-routine library
-- Deterministic offline AI Coach with structured workout and diet guidance
-- Pakistani Food Tracker with 39 verified USDA nutrition records plus 20 nutrition-free South Asian discovery identities
-- Macro Calculator and One-Rep-Max Calculator
-- Persisted profile, units, appearance, calorie targets, and fitness context
-- Tools dashboard and five main tabs: Home, Workout, AI Coach, Tools, and Profile
-- Light, Dark, and System appearance support
-- Adaptive launcher icon and native Android splash screen
+The offline Coach combines local FitDesi knowledge, bounded profile context, and deterministic planning logic to provide workout recommendations, structured fitness and diet guidance, and practical next steps. It can respond across workout, food, progress, and safety topics without presenting itself as a live cloud LLM. Its guidance is general fitness information, not medical advice.
 
-## Why FitDesi is different
+<p align="center">
+  <img src="assets/marketing/fitdesi-feature-ai-coach.png" alt="FitDesi offline AI Coach feature composition" width="800">
+</p>
 
-- **Pakistani context:** food references, search aliases, and planning language are designed around familiar local choices.
-- **Offline-first:** the main preview experience does not require a paid model key or remote inference.
-- **Truthful data states:** reviewed, estimated, and incomplete food data are presented differently rather than silently treated as equally precise.
-- **Practical continuity:** routines, logs, and preferences persist locally across normal use and compatible signed APK updates.
+### Personalized Workout Planner
+
+The Plus planner builds structured workout plans from the user's fitness goal, training experience, available training days, and equipment. It is distinct from the useful offline Coach included in Basic: a plan discussed in a Coach response does not automatically enter My Routines. Users deliberately create and manage routines through the planner and routine tools.
+
+<p align="center">
+  <img src="assets/marketing/fitdesi-feature-workout-planner.png" alt="FitDesi personalized workout planner feature composition" width="800">
+</p>
+
+### Structured Workouts and Live Tracking
+
+FitDesi turns a routine into an active on-device workout experience. Users can work through selected exercises, record working sets with actual weights and repetitions, follow rest timing, and see session progress as they train. Completion summaries and history are based on recorded workout activity; live tracking does not imply cloud synchronization.
+
+<p align="center">
+  <img src="assets/marketing/fitdesi-feature-live-workout.png" alt="FitDesi structured workout and live tracking feature composition" width="800">
+</p>
+
+### Progress Insights
+
+Recorded sessions feed workout history, training trends, and available activity and nutrition analytics. The progress experience helps users review what they completed and understand their recorded patterns without claiming predictive analytics or insights that the current preview does not implement.
+
+<p align="center">
+  <img src="assets/marketing/fitdesi-feature-progress.png" alt="FitDesi workout history and progress insights feature composition" width="800">
+</p>
+
+### Nutrition and Fitness Tools
+
+The Home and Tools experiences bring calorie, macro, hydration, activity, and workout context together with practical utilities such as the Macro Calculator and One-Rep-Max Calculator. Nutrition search includes 39 verified USDA records that can support logging and deterministic calculations, plus 20 South Asian discovery identities that remain nutrition-free and non-loggable until verification is complete.
+
+<p align="center">
+  <img src="assets/marketing/fitdesi-feature-home.png" alt="FitDesi home dashboard, nutrition context, and fitness tools feature composition" width="800">
+</p>
+
+## Real Android Screenshots
+
+These are the original, unedited Android captures. They show the tester-preview interface, but do not by themselves establish release acceptance or production-service availability.
+
+<p align="center">
+  <img src="assets/screenshots/01_FitDesi_Home.jpg" alt="FitDesi Home dashboard Android screenshot" width="49%">
+  <img src="assets/screenshots/02_Offline_AI_Coach.jpg" alt="FitDesi offline AI Coach Android screenshot" width="49%">
+</p>
+<p align="center">
+  <img src="assets/screenshots/03_Structured_Workout_Plan.jpg" alt="FitDesi structured workout plan Android screenshot" width="49%">
+  <img src="assets/screenshots/04_Live_Workout_Progress.jpg" alt="FitDesi live workout progress Android screenshot" width="49%">
+</p>
+<p align="center">
+  <img src="assets/screenshots/06_Training_Analytics.jpg" alt="FitDesi training analytics Android screenshot" width="49%">
+  <img src="assets/screenshots/10_Personalized_Workout_Planner.jpg" alt="FitDesi personalized workout planner Android screenshot" width="49%">
+</p>
+
+More original Android captures: [Workout Routines and History](assets/screenshots/05_Workout_Routines_And_History.jpg) · [Basic vs Plus](assets/screenshots/07_Basic_Vs_Plus.jpg) · [Completed Working Set](assets/screenshots/08_Completed_Working_Set.jpg) · [Plus Active](assets/screenshots/09_Plus_Active.jpg)
+
+## FitDesi Basic and Plus
+
+- **Basic — useful by itself.** The local/offline core includes the deterministic Coach, workout tracking, core fitness tools, saved preferences, and access to verified nutrition and discovery data.
+- **Plus — deeper planning and progression.** Plus adds the personalized Workout Planner and the additional routine and progress capabilities presented in the current preview.
+- **Pro — Coming Soon.** Pro is not launched and cannot currently be purchased.
+
+<p align="center">
+  <img src="assets/marketing/fitdesi-feature-plus.png" alt="FitDesi Basic and Plus feature composition — Test Store QA only" width="800">
+</p>
+
+Purchase and restore evidence is limited to manager-supplied RevenueCat Test Store QA. It is not production Google Play billing, cross-install/store-history restore, or real-revenue evidence. Production Remote AI remains OFF and unlaunched.
+
+## Current development status
+
+FitDesi AI `0.2.0-alpha` is an **early product-development preview**. The Android application is actively evolving, and the public build should be treated as a tester preview rather than a Play Store-ready release. The core local workflow is available; data provenance review, broader device coverage, and production-service decisions remain ongoing.
+
+The Basic / Plus / Pro boundaries above are the current preview positioning. Manager-supplied RevenueCat Test Store QA evidence records that a Monthly purchase activated Plus, Profile and paywall presented Plus, restart while the membership remained active resolved Plus again from CustomerInfo, and the tested active-user Restore path returned Plus active. That evidence is not production Google Play billing, cross-install/store-history restore, or real-revenue evidence. Pro is **Coming Soon** and cannot be purchased. Rewarded Boost exists only in the QA/debug candidate and grants bounded temporary access; release rewarded ads remain disabled. Production Remote AI is OFF and unlaunched. Google Play production publication is deferred.
 
 ## Offline-first architecture
 
@@ -54,16 +115,6 @@ Together the food experience surfaces 59 food concepts, but only the 39 verified
 The Coach uses deterministic offline-first guidance with bounded local persistent conversation history (Coach Chat V2). It classifies bounded requests and returns locally generated fitness, workout, diet, food, progress, and safety guidance. An authenticated remote Coach transport architecture exists behind the backend boundary, but production Remote AI remains intentionally default-off and unlaunched (`AI_PROVIDER=mock`, `REMOTE_AI_ENABLED=false`). No provider key is required for the core demo.
 
 The Coach is not a medical professional. It does not diagnose, treat, or replace qualified clinical advice.
-
-## Screenshots
-
-Product screenshots and the final demo are separate submission artifacts and are not represented as release evidence by this source export.
-
-## Current development status
-
-FitDesi AI `0.2.0-alpha` is an **early product-development preview**. The Android application is actively evolving, and the public build should be treated as a tester preview rather than a Play Store-ready release. The core local workflow is available; data provenance review, broader device coverage, and production-service decisions remain ongoing.
-
-Basic is the useful local/offline core. Manager-supplied RevenueCat Test Store QA evidence records that a Monthly purchase activated Plus, Profile and paywall presented Plus, restart while the membership remained active resolved Plus again from CustomerInfo, and the tested active-user Restore path returned Plus active. That evidence is not production Google Play billing, cross-install/store-history restore, or real-revenue evidence. Pro is **Coming Soon** and cannot be purchased. Rewarded Boost exists only in the QA/debug candidate and grants bounded temporary access; release rewarded ads remain disabled. Production Remote AI is OFF and unlaunched. Google Play production publication is deferred.
 
 ## Installation for testers
 
