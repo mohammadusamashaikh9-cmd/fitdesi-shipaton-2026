@@ -1,0 +1,18 @@
+{
+  "name": "fitdesi-ai-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/app.js && node --check src/config.js && node --check src/errors.js && node --check src/firebase/firebase_admin_app.js && node --check src/auth/firebase_admin_id_token_verifier.js && node --check src/commercial/revenuecat_commercial_authority.js && node --check src/privacy/firestore_consent_store.js && node --check src/privacy/privacy_consent_authority.js && node --check src/remote_admission/account_identity.js && node --check src/remote_admission/admission_authority.js && node --check src/remote_admission/admission_contracts.js && node --check src/remote_admission/capability_policy.js && node --check src/remote_admission/firestore_remote_admission_store.js && node --check src/remote_admission/idempotency.js && node --check src/remote_admission/quota_policy.js && node --check src/remote_admission/remote_execution_admission.js && node --check src/routes/auth_session.js && node --check src/routes/privacy_consent.js && node --check src/routes/ai_coach.js && node --check src/schemas/requests.js && node --check src/schemas/responses.js && node --check src/services/ai_provider.js && node --check src/services/fireworks_provider.js && node --check src/services/fireworks_evaluation_provider.js && node --check src/services/provider_router.js && node --check src/services/provider_route_policy.js && node --check src/services/provider_execution_metadata.js && node --check src/services/coach_provider_operation.js && node --check src/services/openrouter_provider.js && node --check src/evaluation/synthetic_coach_cases.js && node --check src/evaluation/synthetic_coach_evaluation.js && node --check src/evaluation/local_evaluation_admission_store.js && node --check src/evaluation/durable_evaluation_admission.js && node --check src/evaluation/controlled_evaluation_runner.js && node --check src/services/shared_attempt_executor.js && node --check src/services/ai_coach_contract.js && node --check src/services/knowledge_grounding.js && node --check src/services/response_validator.js && node --check src/middleware/authenticate_request.js && node --check src/middleware/fireworks_guard.js && node --check src/middleware/request_logger.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "firebase-admin": "14.4.0",
+    "openai": "6.48.0"
+  }
+}

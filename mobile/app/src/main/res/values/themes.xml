@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar" />
+
+    <style name="Theme.MyApplication.Starting" parent="Theme.MyApplication">
+        <item name="android:windowBackground">@drawable/fitdesi_launch_background</item>
+        <item name="android:statusBarColor">@color/fitdesi_launch_background</item>
+        <item name="android:navigationBarColor">@color/fitdesi_launch_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- Style for Active Bottom Navigation Item Text -->
+    <style name="BottomNavTextActive" parent="android:TextAppearance">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- Style for Inactive Bottom Navigation Item Text -->
+    <style name="BottomNavTextInactive" parent="android:TextAppearance">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

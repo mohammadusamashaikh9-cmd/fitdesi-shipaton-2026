@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fd-food-alias-dal",
+    "alias": "dal",
+    "foodId": "fd-food-simple-daal-bowl",
+    "locale": "en-PK",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "food-alias-dal-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-07-16",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-food-alias-masoor",
+    "alias": "masoor daal",
+    "foodId": "fd-food-simple-daal-bowl",
+    "locale": "en-PK",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "food-alias-masoor-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-07-16",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "discoveryCatalogueId": "fitdesi-south-asian-food-discovery-v1",
+  "generatedAt": "2026-09-24",
+  "recordCount": 20,
+  "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS",
+  "records": [
+    {
+      "id": "fd-discovery-roti-whole-wheat",
+      "name": "Roti (Whole Wheat)",
+      "category": "Breads",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-plain-paratha",
+      "name": "Plain Paratha",
+      "category": "Breads",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-plain-naan",
+      "name": "Plain Naan",
+      "category": "Breads",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-chicken-biryani",
+      "name": "Chicken Biryani",
+      "category": "Rice & Meals",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-vegetable-pulao",
+      "name": "Vegetable Pulao",
+      "category": "Rice & Meals",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-chicken-karahi",
+      "name": "Chicken Karahi",
+      "category": "Curries & Main Dishes",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-chicken-curry",
+      "name": "Chicken Curry",
+      "category": "Curries & Main Dishes",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-daal-masoor",
+      "name": "Daal Masoor",
+      "category": "Lentils & Legumes",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-chole",
+      "name": "Chole",
+      "category": "Lentils & Legumes",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-aloo-gosht",
+      "name": "Aloo Gosht",
+      "category": "Curries & Main Dishes",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-saag",
+      "name": "Saag",
+      "category": "Vegetable Dishes",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-bhindi",
+      "name": "Bhindi",
+      "category": "Vegetable Dishes",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-haleem",
+      "name": "Haleem",
+      "category": "Curries & Main Dishes",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-nihari",
+      "name": "Nihari",
+      "category": "Curries & Main Dishes",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-chapli-kabab",
+      "name": "Chapli Kabab",
+      "category": "Kebabs",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-shami-kabab",
+      "name": "Shami Kabab",
+      "category": "Kebabs",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-samosa",
+      "name": "Samosa",
+      "category": "Snacks & Street Food",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-pakora",
+      "name": "Pakora",
+      "category": "Snacks & Street Food",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-sweet-lassi",
+      "name": "Sweet Lassi",
+      "category": "Drinks",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    },
+    {
+      "id": "fd-discovery-kheer",
+      "name": "Kheer",
+      "category": "Desserts",
+      "cuisine": "South Asian",
+      "nutritionStatus": "NUTRITION_VERIFICATION_IN_PROGRESS"
+    }
+  ]
+}

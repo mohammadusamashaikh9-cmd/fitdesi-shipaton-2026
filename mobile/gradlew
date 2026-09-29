@@ -1,0 +1,26 @@
+#!/bin/sh
+
+# Gradle start-up script for POSIX systems.
+set -eu
+
+APP_HOME=$(CDPATH= cd -- "$(dirname -- "$0")" >/dev/null 2>&1 && pwd -P)
+APP_BASE_NAME=${0##*/}
+
+if [ -n "${JAVA_HOME:-}" ]; then
+    JAVACMD="$JAVA_HOME/bin/java"
+    if [ ! -x "$JAVACMD" ]; then
+        echo "ERROR: JAVA_HOME does not point to a valid JDK: $JAVA_HOME" >&2
+        exit 1
+    fi
+else
+    JAVACMD=java
+fi
+
+CLASSPATH="$APP_HOME/gradle/wrapper/gradle-wrapper.jar"
+
+exec "$JAVACMD" \
+    -Xmx64m -Xms64m \
+    "-Dorg.gradle.appname=$APP_BASE_NAME" \
+    -classpath "$CLASSPATH" \
+    org.gradle.wrapper.GradleWrapperMain \
+    "$@"

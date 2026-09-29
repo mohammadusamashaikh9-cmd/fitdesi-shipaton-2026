@@ -1,0 +1,65 @@
+{
+  "packId": "fitdesi-local-knowledge",
+  "packVersion": "1.3.0",
+  "schemaVersion": 1,
+  "releaseMode": "MARKET_VERIFIED_ONLY",
+  "createdDate": "2026-08-24",
+  "files": [
+    {
+      "name": "exercises.json",
+      "recordCount": 534,
+      "sha256": "bcbabbaabc7c76d260a91d20e5629ae811e9c9049d75ec3527aab51ce66b265b"
+    },
+    {
+      "name": "yoga_poses.json",
+      "recordCount": 13,
+      "sha256": "f66c2a060268c61ba67227f11c79060e23cb6027f98805d44967aa51eea3e7eb"
+    },
+    {
+      "name": "pakistani_foods.json",
+      "recordCount": 1,
+      "sha256": "dfdfdcea4b723d2e74843970ee4aa85452f668411abe48e8ae2d30d32e15ed62"
+    },
+    {
+      "name": "food_aliases.json",
+      "recordCount": 2,
+      "sha256": "c15ea64d02822e0c915deb6def47dee5fefae9d3e692f6655a65cbce2055769e"
+    },
+    {
+      "name": "coaching_rules.json",
+      "recordCount": 1,
+      "sha256": "39febede6516fe0afa1c9b5a010c75452c0b38637c76b72e0e9cbb3ac9eea0e3"
+    },
+    {
+      "name": "workout_rules.json",
+      "recordCount": 1,
+      "sha256": "7b06b41fe85d34bb0742502060c0cba7f4c52c253209c047bdf0b27098aa3571"
+    },
+    {
+      "name": "progressions.json",
+      "recordCount": 1,
+      "sha256": "7992ccad1d67e84ddcc007c4a1486de5c8f54ac799efefc7716cd19b9c5da277"
+    },
+    {
+      "name": "substitutions.json",
+      "recordCount": 1,
+      "sha256": "8f91c562159377dc90a05af2f494aadc3cdb50e33729b143f7784770f5c416c0"
+    },
+    {
+      "name": "safety_rules.json",
+      "recordCount": 1,
+      "sha256": "97caa0f3ec7000202a67338f3f032a20453dd2ccf5fbfa823d180fa25c746a50"
+    },
+    {
+      "name": "medical_escalation.json",
+      "recordCount": 1,
+      "sha256": "91edb7b32b04bb406dd595ad5af9c44a04383ecf82a448b9427564027fa5b447"
+    }
+  ],
+  "totalRecords": 556,
+  "licenseCounts": {
+    "VERIFIED": 556,
+    "RESTRICTED": 0,
+    "UNKNOWN": 0
+  }
+}

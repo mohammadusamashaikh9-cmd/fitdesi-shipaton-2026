@@ -1,0 +1,15 @@
+# Copy only these non-secret flags to your ignored local.properties file.
+# Provider credentials must remain in the backend environment.
+FITDESI_BUILD_WEEK_SAFE_MODE=true
+# Android emulator reaches the development computer through 10.0.2.2.
+FITDESI_BACKEND_DEBUG_BASE_URL=http://10.0.2.2:3000/
+# Release builds must use a reviewed HTTPS deployment.
+FITDESI_BACKEND_RELEASE_BASE_URL=https://example.invalid/
+FITDESI_AI_PROXY_ENABLED=false
+FITDESI_AI_RUNTIME_MODE=LOCAL
+FITDESI_EXERCISE_PROXY_ENABLED=false
+FITDESI_FIRESTORE_SYNC_ENABLED=false
+FITDESI_ALLOW_DESTRUCTIVE_MIGRATION=false
+# RevenueCat Test Store is debug/QA-only. Supply only a public SDK key outside Git.
+FITDESI_REVENUECAT_ENABLED=false
+FITDESI_REVENUECAT_PUBLIC_KEY=

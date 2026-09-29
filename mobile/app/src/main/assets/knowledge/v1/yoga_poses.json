@@ -1,0 +1,449 @@
+[
+  {
+    "id": "fd-yoga-bound-angle",
+    "name": "Bound Angle Pose",
+    "aliases": [
+      "Butterfly Pose",
+      "Baddha Konasana"
+    ],
+    "bodyTargets": [
+      "hips",
+      "inner thighs"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight",
+      "support"
+    ],
+    "goals": [
+      "mobility",
+      "flexibility",
+      "cooldown"
+    ],
+    "instructions": "Sit tall, bring the soles of the feet together, and allow the knees to open only to a comfortable level. Hold the feet or rest the hands beside the body without pressing the knees down.",
+    "safetyNote": "Sit on support or place cushions under the knees if useful, avoid forcing depth, and stop for sharp pain, numbness, or worsening symptoms.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-bound-angle-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-bridge-pose",
+    "name": "Bridge Pose",
+    "aliases": [
+      "Setu Bandha Sarvangasana"
+    ],
+    "bodyTargets": [
+      "glutes",
+      "trunk",
+      "hips"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight"
+    ],
+    "goals": [
+      "mobility",
+      "controlled strength"
+    ],
+    "instructions": "Lie on the back with the knees bent and the feet planted, then press through the feet to lift the hips to a comfortable height. Keep the knees tracking steadily and lower with control.",
+    "safetyNote": "Keep the neck neutral and do not turn the head while lifted, avoid forcing height, and stop for sharp pain, numbness, dizziness, or loss of safe control.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-bridge-pose-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-cat-cow",
+    "name": "Cat-Cow Mobility",
+    "aliases": [
+      "Spinal flexion and extension"
+    ],
+    "bodyTargets": [
+      "spine",
+      "trunk"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight"
+    ],
+    "goals": [
+      "mobility",
+      "recovery"
+    ],
+    "instructions": "From hands and knees, slowly alternate between a comfortable rounded back and a comfortable extended position while breathing normally.",
+    "safetyNote": "Keep the range gentle and stop for sharp pain, numbness, dizziness, or worsening symptoms.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-cat-cow-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-07-16",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-childs-pose",
+    "name": "Child's Pose",
+    "aliases": [
+      "Balasana"
+    ],
+    "bodyTargets": [
+      "back",
+      "hips",
+      "shoulders"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight",
+      "support"
+    ],
+    "goals": [
+      "mobility",
+      "cooldown",
+      "recovery"
+    ],
+    "instructions": "Begin on hands and knees, then ease the hips back toward the heels while reaching the arms forward or resting them comfortably. Keep the position within a range that allows steady breathing.",
+    "safetyNote": "Use support under the knees or head if useful, avoid forcing the hips toward the heels, and stop for sharp pain, numbness, dizziness, or worsening symptoms.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-childs-pose-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-downward-facing-dog",
+    "name": "Downward-Facing Dog",
+    "aliases": [
+      "Adho Mukha Svanasana"
+    ],
+    "bodyTargets": [
+      "shoulders",
+      "hamstrings",
+      "calves",
+      "trunk"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight"
+    ],
+    "goals": [
+      "mobility",
+      "flexibility"
+    ],
+    "instructions": "Start on hands and knees, spread the fingers, then lift the hips up and back while keeping the knees bent as needed. Lengthen through the trunk without forcing the heels down.",
+    "safetyNote": "Shorten the hold or return to hands and knees if wrist or shoulder control fades, avoid forcing straight knees, and stop for sharp pain, numbness, or dizziness.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-downward-facing-dog-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-happy-baby",
+    "name": "Happy Baby Pose",
+    "aliases": [
+      "Ananda Balasana"
+    ],
+    "bodyTargets": [
+      "hips",
+      "inner thighs",
+      "back"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight",
+      "strap"
+    ],
+    "goals": [
+      "mobility",
+      "cooldown"
+    ],
+    "instructions": "Lie on the back, bring the knees toward the sides of the torso, and hold the thighs, shins, or a strap where comfortable. Let the hips stay heavy while keeping the movement gentle.",
+    "safetyNote": "Choose a reachable hold without pulling the knees down, keep the head relaxed, and stop for sharp pain, numbness, dizziness, or worsening symptoms.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-happy-baby-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-low-lunge",
+    "name": "Low Lunge",
+    "aliases": [],
+    "bodyTargets": [
+      "hip flexors",
+      "quadriceps",
+      "ankles"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight",
+      "support"
+    ],
+    "goals": [
+      "mobility",
+      "flexibility"
+    ],
+    "instructions": "From a split stance, lower the back knee onto a padded surface and keep the front foot planted. Shift forward only until the front of the back hip feels comfortably lengthened while the torso stays supported.",
+    "safetyNote": "Use a chair or blocks for balance, pad the rear knee, keep the front knee controlled, and stop for sharp pain, numbness, dizziness, or loss of safe control.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-low-lunge-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-mountain-pose",
+    "name": "Mountain Pose",
+    "aliases": [
+      "Tadasana"
+    ],
+    "bodyTargets": [
+      "feet",
+      "legs",
+      "trunk"
+    ],
+    "equipment": [
+      "bodyweight",
+      "support"
+    ],
+    "goals": [
+      "mobility",
+      "balance"
+    ],
+    "instructions": "Stand with the feet in a stable position, the knees relaxed, and weight shared comfortably across both feet. Let the arms rest by the sides or reach upward without lifting the shoulders.",
+    "safetyNote": "Use a wall or chair if balance is uncertain, keep the knees soft, and stop for sharp pain, dizziness, or loss of safe control.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-mountain-pose-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-seated-forward-fold",
+    "name": "Seated Forward Fold",
+    "aliases": [
+      "Paschimottanasana"
+    ],
+    "bodyTargets": [
+      "hamstrings",
+      "calves",
+      "back"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight",
+      "strap"
+    ],
+    "goals": [
+      "mobility",
+      "flexibility",
+      "cooldown"
+    ],
+    "instructions": "Sit with the legs extended or slightly bent and keep the torso comfortably tall. Hinge forward from the hips and rest the hands on the legs or a strap without pulling deeper.",
+    "safetyNote": "Bend the knees or sit on support as needed, avoid forcing the reach or rounding under strain, and stop for sharp pain, numbness, or worsening symptoms.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-seated-forward-fold-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-sphinx-pose",
+    "name": "Sphinx Pose",
+    "aliases": [],
+    "bodyTargets": [
+      "spine",
+      "trunk",
+      "shoulders"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight"
+    ],
+    "goals": [
+      "mobility"
+    ],
+    "instructions": "Lie on the front and place the forearms on the floor with the elbows near or slightly ahead of the shoulders. Gently lift the chest while keeping the pelvis supported and the lower back comfortable.",
+    "safetyNote": "Press lightly through the forearms, keep the neck easy, avoid forcing height, and lower down if discomfort increases or sharp pain, numbness, or dizziness occurs.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-sphinx-pose-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-standing-forward-fold",
+    "name": "Standing Forward Fold",
+    "aliases": [
+      "Uttanasana"
+    ],
+    "bodyTargets": [
+      "hamstrings",
+      "calves",
+      "back"
+    ],
+    "equipment": [
+      "bodyweight",
+      "support"
+    ],
+    "goals": [
+      "mobility",
+      "flexibility",
+      "cooldown"
+    ],
+    "instructions": "Stand securely, soften the knees, and hinge forward from the hips until the torso reaches a comfortable level. Rest the hands on the thighs, shins, floor, or a stable support.",
+    "safetyNote": "Keep the knees bent as needed, rise slowly, avoid forcing depth or rounding under strain, and stop for sharp pain, numbness, or dizziness.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-standing-forward-fold-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-supine-twist",
+    "name": "Supine Twist",
+    "aliases": [
+      "Reclining Twist"
+    ],
+    "bodyTargets": [
+      "trunk",
+      "spine",
+      "hips"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight",
+      "support"
+    ],
+    "goals": [
+      "mobility",
+      "cooldown"
+    ],
+    "instructions": "Lie on the back with the knees bent, then let both knees move toward one side only as far as the trunk stays comfortable. Keep the shoulders relaxed and return through the centre before changing sides.",
+    "safetyNote": "Support the knees with a cushion if useful, keep the rotation gentle, and stop for sharp pain, numbness, dizziness, or worsening symptoms.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-supine-twist-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  },
+  {
+    "id": "fd-yoga-thread-the-needle",
+    "name": "Thread the Needle",
+    "aliases": [
+      "Shoulder thread-through"
+    ],
+    "bodyTargets": [
+      "shoulders",
+      "upper back",
+      "trunk"
+    ],
+    "equipment": [
+      "mat",
+      "bodyweight"
+    ],
+    "goals": [
+      "mobility",
+      "cooldown"
+    ],
+    "instructions": "From hands and knees, slide one arm beneath the other and lower the shoulder toward the floor only as far as comfortable. Keep the supporting hand planted or reach it forward, then return slowly before changing sides.",
+    "safetyNote": "Keep pressure off the neck, use padding under the shoulder if useful, avoid forcing rotation, and stop for sharp pain, numbness, dizziness, or worsening symptoms.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "yoga-thread-the-needle-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-08-24",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  }
+]

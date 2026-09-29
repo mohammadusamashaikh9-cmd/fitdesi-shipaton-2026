@@ -1,0 +1,37 @@
+[
+  {
+    "id": "fd-coach-protein-food-first",
+    "title": "Protein food-first guidance",
+    "keywords": [
+      "protein",
+      "muscle",
+      "recovery",
+      "daal"
+    ],
+    "goals": [
+      "build muscle",
+      "get stronger",
+      "balanced meals"
+    ],
+    "experienceLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ],
+    "equipment": [],
+    "guidance": "Distribute familiar protein foods across meals and review current intake before adding supplements. Exact targets depend on body size, diet, training, and medical context.",
+    "priority": 15,
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "coach-protein-food-first-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-07-16",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  }
+]

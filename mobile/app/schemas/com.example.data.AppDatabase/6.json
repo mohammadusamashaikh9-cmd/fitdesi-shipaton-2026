@@ -1,0 +1,84 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 6,
+    "identityHash": "88bffca556e6ad55decce905a3e12c8b",
+    "entities": [
+      {
+        "tableName": "calorie_logs",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `amount` INTEGER NOT NULL, `mealType` TEXT NOT NULL, `description` TEXT NOT NULL, `proteinGrams` REAL NOT NULL, `carbsGrams` REAL NOT NULL, `fatGrams` REAL NOT NULL, `servings` REAL NOT NULL, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          { "fieldPath": "id", "columnName": "id", "affinity": "INTEGER", "notNull": true },
+          { "fieldPath": "amount", "columnName": "amount", "affinity": "INTEGER", "notNull": true },
+          { "fieldPath": "mealType", "columnName": "mealType", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "description", "columnName": "description", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "proteinGrams", "columnName": "proteinGrams", "affinity": "REAL", "notNull": true },
+          { "fieldPath": "carbsGrams", "columnName": "carbsGrams", "affinity": "REAL", "notNull": true },
+          { "fieldPath": "fatGrams", "columnName": "fatGrams", "affinity": "REAL", "notNull": true },
+          { "fieldPath": "servings", "columnName": "servings", "affinity": "REAL", "notNull": true },
+          { "fieldPath": "timestamp", "columnName": "timestamp", "affinity": "INTEGER", "notNull": true }
+        ],
+        "primaryKey": { "columnNames": ["id"], "autoGenerate": true },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "workout_logs",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `sessionId` TEXT, `exerciseName` TEXT NOT NULL, `category` TEXT NOT NULL, `durationMinutes` INTEGER NOT NULL, `durationSeconds` INTEGER NOT NULL DEFAULT 0, `caloriesBurned` INTEGER NOT NULL, `completedSets` INTEGER NOT NULL DEFAULT 0, `liftingVolumeKg` REAL NOT NULL DEFAULT 0.0, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          { "fieldPath": "id", "columnName": "id", "affinity": "INTEGER", "notNull": true },
+          { "fieldPath": "sessionId", "columnName": "sessionId", "affinity": "TEXT", "notNull": false },
+          { "fieldPath": "exerciseName", "columnName": "exerciseName", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "category", "columnName": "category", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "durationMinutes", "columnName": "durationMinutes", "affinity": "INTEGER", "notNull": true },
+          { "fieldPath": "durationSeconds", "columnName": "durationSeconds", "affinity": "INTEGER", "notNull": true, "defaultValue": "0" },
+          { "fieldPath": "caloriesBurned", "columnName": "caloriesBurned", "affinity": "INTEGER", "notNull": true },
+          { "fieldPath": "completedSets", "columnName": "completedSets", "affinity": "INTEGER", "notNull": true, "defaultValue": "0" },
+          { "fieldPath": "liftingVolumeKg", "columnName": "liftingVolumeKg", "affinity": "REAL", "notNull": true, "defaultValue": "0.0" },
+          { "fieldPath": "timestamp", "columnName": "timestamp", "affinity": "INTEGER", "notNull": true }
+        ],
+        "primaryKey": { "columnNames": ["id"], "autoGenerate": true },
+        "indices": [
+          {
+            "name": "index_workout_logs_sessionId",
+            "unique": true,
+            "columnNames": ["sessionId"],
+            "orders": ["ASC"],
+            "createSql": "CREATE UNIQUE INDEX IF NOT EXISTS `index_workout_logs_sessionId` ON `${TABLE_NAME}` (`sessionId`)"
+          }
+        ],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "exercises",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `name` TEXT NOT NULL, `category` TEXT NOT NULL, `muscles` TEXT NOT NULL, `equipment` TEXT NOT NULL, `difficulty` TEXT NOT NULL, `instructions` TEXT NOT NULL, `videoUrl` TEXT NOT NULL, `thumbnail` TEXT NOT NULL, `grip` TEXT, `mechanic` TEXT, `force` TEXT, `howToSetup` TEXT, `howToPerform` TEXT, `properTechnique` TEXT, `thingsToAvoid` TEXT, PRIMARY KEY(`id`))",
+        "fields": [
+          { "fieldPath": "id", "columnName": "id", "affinity": "INTEGER", "notNull": true },
+          { "fieldPath": "name", "columnName": "name", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "category", "columnName": "category", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "muscles", "columnName": "muscles", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "equipment", "columnName": "equipment", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "difficulty", "columnName": "difficulty", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "instructions", "columnName": "instructions", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "videoUrl", "columnName": "videoUrl", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "thumbnail", "columnName": "thumbnail", "affinity": "TEXT", "notNull": true },
+          { "fieldPath": "grip", "columnName": "grip", "affinity": "TEXT", "notNull": false },
+          { "fieldPath": "mechanic", "columnName": "mechanic", "affinity": "TEXT", "notNull": false },
+          { "fieldPath": "force", "columnName": "force", "affinity": "TEXT", "notNull": false },
+          { "fieldPath": "howToSetup", "columnName": "howToSetup", "affinity": "TEXT", "notNull": false },
+          { "fieldPath": "howToPerform", "columnName": "howToPerform", "affinity": "TEXT", "notNull": false },
+          { "fieldPath": "properTechnique", "columnName": "properTechnique", "affinity": "TEXT", "notNull": false },
+          { "fieldPath": "thingsToAvoid", "columnName": "thingsToAvoid", "affinity": "TEXT", "notNull": false }
+        ],
+        "primaryKey": { "columnNames": ["id"], "autoGenerate": false },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '88bffca556e6ad55decce905a3e12c8b')"
+    ]
+  }
+}

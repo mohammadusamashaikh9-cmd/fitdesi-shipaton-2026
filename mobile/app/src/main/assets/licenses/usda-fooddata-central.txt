@@ -1,0 +1,25 @@
+USDA FoodData Central Foundation Foods
+April 2026 release
+
+Source: U.S. Department of Agriculture, Agricultural Research Service
+FoodData Central: https://fdc.nal.usda.gov/
+Dataset downloads: https://fdc.nal.usda.gov/download-datasets/
+Foundation Foods documentation:
+https://fdc.nal.usda.gov/Foundation_Foods_Documentation/
+
+FoodData Central data are United States public-domain data and are made
+available under CC0 1.0 Universal. Permission is not required. Source citation
+is requested; it is not a licence requirement.
+
+FitDesi's public-safe runtime nutrition catalogue contains 39 verified USDA
+FoodData Central records across four source classes: Foundation Foods (April
+2026), Survey/FNDDS (2021-2023, October 2024), SR Legacy (April 2018 final
+release), and Branded manufacturer-label-derived (April 2026). FitDesi selected
+a bounded subset, retained immutable FDC IDs and exact per-100 g source values
+in provenance/review metadata, mapped exact USDA nutrient identities, and
+rounded displayed calories to the nearest whole kcal for the existing Android
+catalogue schema. The April 2026 raw Foundation CSV dump is not redistributed in
+the release branch; maintainers reacquire official source data from the USDA
+download page above and verify the hash-pinned source archives, selection
+evidence, and per-record provenance hashes stored with each verified record.
+FitDesi does not imply USDA endorsement or professional nutrition certification.

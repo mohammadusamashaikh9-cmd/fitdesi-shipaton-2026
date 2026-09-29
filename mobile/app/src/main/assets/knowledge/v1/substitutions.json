@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fd-substitution-squat-sit-to-stand",
+    "fromId": null,
+    "fromLabel": "Unsupported squat",
+    "toId": "fd-exercise-chair-squat",
+    "toLabel": "Chair squat",
+    "equipment": [
+      "chair",
+      "bodyweight"
+    ],
+    "reason": "Use a stable chair as a clear depth target when an unsupported squat is not yet controlled.",
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "substitution-chair-squat-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-07-16",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  }
+]

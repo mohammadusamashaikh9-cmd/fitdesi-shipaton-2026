@@ -1,0 +1,298 @@
+[
+  {
+    "exercises": [
+      {
+        "id": 1,
+        "name": "Barbell Squat",
+        "category": "Legs",
+        "muscles": ["Glutes", "Quadriceps", "Hamstrings", "Core"],
+        "equipment": "Barbell",
+        "difficulty": "intermediate",
+        "grip": "Overhand",
+        "mechanic": "Compound",
+        "force": "Push",
+        "instructions": [
+          "Stand with your feet shoulder-width apart.",
+          "Grip the bar across your shoulders and support it on your upper back.",
+          "Lower your body by bending your knees and hips.",
+          "Drive back up to the starting position."
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Barbell Bench Press",
+        "category": "Chest",
+        "muscles": ["Chest", "Triceps", "Shoulders"],
+        "equipment": "Barbell",
+        "difficulty": "intermediate",
+        "grip": "Overhand",
+        "mechanic": "Compound",
+        "force": "Push",
+        "instructions": [
+          "Lie flat on the bench with eyes under the bar.",
+          "Grip the bar slightly wider than shoulder-width.",
+          "Lower the bar to your chest.",
+          "Press it back up explosively."
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Deadlift",
+        "category": "Back",
+        "muscles": ["Hamstrings", "Glutes", "Lower Back", "Traps", "Core"],
+        "equipment": "Barbell",
+        "difficulty": "advanced",
+        "grip": "Overhand/Mixed",
+        "mechanic": "Compound",
+        "force": "Pull",
+        "instructions": [
+          "Stand with feet hip-width apart.",
+          "Hinge down and grip the bar just outside knees.",
+          "Drive through feet to lift the bar close to body.",
+          "Lock out by extending hips and knees."
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Pull-Ups",
+        "category": "Back",
+        "muscles": ["Lats", "Biceps", "Upper Back"],
+        "equipment": "Pull-up Bar",
+        "difficulty": "intermediate",
+        "grip": "Overhand",
+        "mechanic": "Compound",
+        "force": "Pull",
+        "instructions": [
+          "Hang from bar with hands wider than shoulders.",
+          "Pull chest up to the bar leading with your chest.",
+          "Lower down slowly under control."
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Push-Ups",
+        "category": "Chest",
+        "muscles": ["Chest", "Triceps", "Shoulders", "Core"],
+        "equipment": "Bodyweight",
+        "difficulty": "beginner",
+        "grip": "Pronated",
+        "mechanic": "Compound",
+        "force": "Push",
+        "instructions": [
+          "Start in high plank position.",
+          "Lower chest to the floor keeping core tight.",
+          "Push back up to starting position."
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Incline Dumbbell Press",
+        "category": "Chest",
+        "muscles": ["Upper Chest", "Shoulders", "Triceps"],
+        "equipment": "Dumbbells",
+        "difficulty": "intermediate",
+        "grip": "Overhand",
+        "mechanic": "Compound",
+        "force": "Push",
+        "instructions": [
+          "Lie on an incline bench holding dumbbells at chest height.",
+          "Press weights straight up overhead.",
+          "Lower with control to sides of chest."
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Lat Pulldown",
+        "category": "Back",
+        "muscles": ["Lats", "Biceps", "Upper Back"],
+        "equipment": "Cable Machine",
+        "difficulty": "beginner",
+        "grip": "Overhand",
+        "mechanic": "Compound",
+        "force": "Pull",
+        "instructions": [
+          "Sit at lat pulldown machine and adjust knee pads.",
+          "Grip bar with wide overhand grip.",
+          "Pull bar down to upper chest.",
+          "Extend arms fully to return."
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Lateral Raise",
+        "category": "Shoulders",
+        "muscles": ["Side Deltoids", "Traps"],
+        "equipment": "Dumbbells",
+        "difficulty": "beginner",
+        "grip": "Neutral",
+        "mechanic": "Isolation",
+        "force": "Pull",
+        "instructions": [
+          "Stand holding dumbbells at your sides.",
+          "Raise arms outward to shoulder height keeping them straight.",
+          "Lower back down slowly."
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Front Raise",
+        "category": "Shoulders",
+        "muscles": ["Front Deltoids"],
+        "equipment": "Dumbbells",
+        "difficulty": "beginner",
+        "grip": "Pronated",
+        "mechanic": "Isolation",
+        "force": "Push",
+        "instructions": [
+          "Stand holding dumbbells in front of your thighs.",
+          "Raise dumbbells forward to shoulder level.",
+          "Lower with control."
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Lunges",
+        "category": "Legs",
+        "muscles": ["Quads", "Glutes", "Hamstrings"],
+        "equipment": "Bodyweight",
+        "difficulty": "beginner",
+        "grip": "None",
+        "mechanic": "Compound",
+        "force": "Push",
+        "instructions": [
+          "Take a step forward with one leg.",
+          "Lower hips until front thigh is parallel to ground.",
+          "Push through front foot to return to starting position."
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Calf Raises",
+        "category": "Legs",
+        "muscles": ["Calves"],
+        "equipment": "Bodyweight",
+        "difficulty": "beginner",
+        "grip": "None",
+        "mechanic": "Isolation",
+        "force": "Push",
+        "instructions": [
+          "Stand upright on flat ground.",
+          "Push up through toes to lift your heels.",
+          "Lower down slowly to start position."
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Dumbbell Bicep Curl",
+        "category": "Arms",
+        "muscles": ["Biceps", "Forearms"],
+        "equipment": "Dumbbells",
+        "difficulty": "beginner",
+        "grip": "Supinated",
+        "mechanic": "Isolation",
+        "force": "Pull",
+        "instructions": [
+          "Stand holding dumbbells with palms facing forward.",
+          "Curl weights upward keeping elbows at sides.",
+          "Lower with control."
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Hammer Curl",
+        "category": "Arms",
+        "muscles": ["Biceps", "Forearms"],
+        "equipment": "Dumbbells",
+        "difficulty": "beginner",
+        "grip": "Neutral",
+        "mechanic": "Isolation",
+        "force": "Pull",
+        "instructions": [
+          "Stand holding dumbbells with palms facing each other.",
+          "Curl weights upward while keeping neutral grip.",
+          "Lower slowly."
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Overhead Dumbbell Tricep Extension",
+        "category": "Arms",
+        "muscles": ["Triceps"],
+        "equipment": "Dumbbells",
+        "difficulty": "beginner",
+        "grip": "Neutral",
+        "mechanic": "Isolation",
+        "force": "Push",
+        "instructions": [
+          "Hold dumbbell overhead with both hands.",
+          "Lower dumbbell behind head by bending elbows.",
+          "Extend arms to raise weight back up."
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Plank",
+        "category": "Core",
+        "muscles": ["Abs", "Lower Back", "Shoulders"],
+        "equipment": "Bodyweight",
+        "difficulty": "beginner",
+        "grip": "None",
+        "mechanic": "Isometric",
+        "force": "None",
+        "instructions": [
+          "Rest on forearms and toes on floor.",
+          "Keep body straight from head to heels.",
+          "Hold position while bracing core."
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Russian Twist",
+        "category": "Core",
+        "muscles": ["Obliques", "Abs"],
+        "equipment": "Bodyweight",
+        "difficulty": "beginner",
+        "grip": "None",
+        "mechanic": "Isometric",
+        "force": "None",
+        "instructions": [
+          "Sit with knees bent and feet slightly off floor.",
+          "Twist torso from side to side.",
+          "Touch floor on each side with hands."
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Bicycle Crunches",
+        "category": "Core",
+        "muscles": ["Abs", "Obliques"],
+        "equipment": "Bodyweight",
+        "difficulty": "beginner",
+        "grip": "None",
+        "mechanic": "Compound",
+        "force": "Pull",
+        "instructions": [
+          "Lie flat on your back.",
+          "Bring opposite elbow to opposite knee while pedaling legs.",
+          "Alternate sides dynamically."
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Dumbbell Shrugs",
+        "category": "Back",
+        "muscles": ["Traps", "Shoulders"],
+        "equipment": "Dumbbells",
+        "difficulty": "beginner",
+        "grip": "Neutral",
+        "mechanic": "Isolation",
+        "force": "Pull",
+        "instructions": [
+          "Stand holding dumbbells at your sides.",
+          "Shrug shoulders upward as high as possible.",
+          "Lower under control."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fd-safety-general-training",
+    "title": "General training boundary",
+    "triggerTerms": [
+      "safe",
+      "form",
+      "recovery",
+      "pain",
+      "dizziness"
+    ],
+    "severity": "CAUTION",
+    "guidance": "Use controlled technique, progress gradually, allow recovery, and stop when form fails or symptoms appear. This is general education, not medical diagnosis or treatment.",
+    "priority": 80,
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "safety-general-training-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-07-16",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  }
+]

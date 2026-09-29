@@ -1,0 +1,11 @@
+# Deterministic line endings for checksum-sensitive data and tooling.
+#
+# Pass 2A finding: on Windows checkouts core.autocrlf converted these LF-committed
+# files to CRLF in the working tree. Content hashes (e.g. the USDA selection and
+# catalogue contracts) are computed over parsed JSON so they were never at risk,
+# but byte-level checkout drift made verification noisy and non-reproducible.
+# Pinning these globs to LF makes the working-tree bytes equal the committed bytes
+# on every platform without rewriting any stored blob or changing any valid hash.
+
+*.json text eol=lf
+*.mjs text eol=lf

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "catalogueId": "stage9b-test-only-khichdi-projection",
+  "generatedAt": "2026-08-29",
+  "recordCount": 1,
+  "reviewedLoggableCount": 1,
+  "reviewRequiredCount": 0,
+  "sourceCandidateCount": 0,
+  "categoryTotals": {
+    "Grains & Rice": 1
+  },
+  "ambiguousAliases": {},
+  "records": [
+    {
+      "id": "fd-food-recipe-test-only-plain-rice-lentil-khichdi",
+      "name": "TEST ONLY Plain Rice-Lentil Khichdi",
+      "aliases": [
+        "test only khichuri fixture"
+      ],
+      "category": "Grains & Rice",
+      "originalCategory": "FitDesi-authored recipe",
+      "servingSize": "100 g",
+      "calories": 136,
+      "proteinGrams": 4.71,
+      "carbsGrams": 27.85,
+      "fatGrams": 0.5,
+      "nutritionBasis": "VERIFIED_RECIPE_YIELD",
+      "nutritionDisplayLabel": "FitDesi verified recipe yield • exact per 100 g",
+      "fitDesiReviewStatus": "FITDESI_NUTRITION_VERIFIED",
+      "isLoggable": true,
+      "runtimeSource": "FITDESI_RECIPE_YIELD_VERIFIED",
+      "dietaryClassification": "VEGAN",
+      "licenceStatus": "VERIFIED_COMMERCIAL",
+      "importedProvenance": [],
+      "recipeEvidence": {
+        "evidenceSchemaVersion": 1,
+        "recipe": {
+          "id": "fd-food-recipe-test-only-plain-rice-lentil-khichdi",
+          "schemaVersion": 1,
+          "recipeVersion": 1,
+          "calculationVersion": "FITDESI_RECIPE_YIELD_V1"
+        },
+        "ingredients": [
+          {
+            "type": "NUTRITIVE",
+            "foodId": "fd-food-usda-2512381",
+            "grams": "100",
+            "evidenceFingerprint": "sha256:3bbc3d7041e3d811a68fd9da97f3000f7d542ec70d77e1dd888f6cdc3d93f7c3"
+          },
+          {
+            "type": "NUTRITIVE",
+            "foodId": "fd-food-usda-2644283",
+            "grams": "50",
+            "evidenceFingerprint": "sha256:0546fed200170db547b9ec56030bdd5dac4c53b42c960ff9b9b2c0cb530a7fc1"
+          },
+          {
+            "type": "PROCESS",
+            "processId": "water",
+            "processType": "WATER",
+            "grams": "300"
+          }
+        ],
+        "yield": {
+          "finalYieldGrams": "400",
+          "evidence": {
+            "method": "WEIGHED_FINAL_YIELD",
+            "referenceIdentifier": "synthetic:test-only-khichdi-yield-400g"
+          }
+        },
+        "nutrition": {
+          "rawTotalsExact": {
+            "energyKcal": "545.5",
+            "proteinGrams": "18.823225",
+            "carbsGrams": "111.398775",
+            "fatGrams": "1.9955"
+          },
+          "publishedPer100g": {
+            "energyKcal": 136,
+            "proteinGrams": 4.71,
+            "carbsGrams": 27.85,
+            "fatGrams": 0.5
+          }
+        },
+        "roundingPolicy": {
+          "mode": "ROUND_HALF_UP_NON_NEGATIVE",
+          "boundary": "FINAL_PUBLICATION_ONLY",
+          "energyDecimalPlaces": 0,
+          "macroDecimalPlaces": 2
+        },
+        "provenance": {
+          "authorship": {
+            "authorName": "FitDesi synthetic tests",
+            "specificationType": "FITDESI_AUTHORED_RECIPE",
+            "sourceIdentifier": "fitdesi:test-only-khichdi-fixture"
+          },
+          "references": [
+            {
+              "sourceName": "Synthetic khichdi-shaped test reference",
+              "sourceIdentifier": "synthetic:test-only-khichdi-reference",
+              "licenseIdentifier": "CC0-1.0",
+              "usageClassification": "REFERENCE_ONLY"
+            }
+          ]
+        },
+        "review": {
+          "disposition": "APPROVED",
+          "reviewer": "FitDesi synthetic tests",
+          "reviewedAt": "2026-08-29"
+        },
+        "commercialEligibility": {
+          "eligible": true,
+          "derivedFrom": [
+            "VERIFIED_PER_100G_INGREDIENTS",
+            "VERIFIED_COMMERCIAL_INGREDIENT_EVIDENCE",
+            "EXPLICIT_GRAM_QUANTITIES",
+            "EXPLICIT_YIELD_EVIDENCE",
+            "APPROVED_RECIPE_REVIEW"
+          ]
+        },
+        "evidenceSha256": "b1bf455a9dbbf2d398a86db041c5bb2ff50e31907c7739ef4078e9a342f38ca9"
+      }
+    }
+  ]
+}

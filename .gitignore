@@ -1,0 +1,69 @@
+# Gradle and Android build output
+.gradle/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Machine-local Android configuration
+local.properties
+
+# Environment and secret files
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!*.env.example
+secrets.properties
+apikeys.properties
+
+# Android signing material
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+signing.properties
+keystore.properties
+
+# Firebase configuration
+google-services.json
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+/backend/.evaluation/
+node_modules/
+/output/
+/outputs/
+*.apk
+*.aab
+*.log
+*.tmp
+*.swp
+*~
+
+# User-supplied knowledge source files (never commit raw licensed data)
+tools/knowledge/raw/
+!tools/knowledge/raw/
+tools/knowledge/raw/*
+!tools/knowledge/raw/stage9-direct-fdc-evidence.json
+
+# Mimosa local metadata
+.mimosa/
+backend/.mimosa/
+
+# Reproducible local Stage 8C detailed QC output (regenerate from pinned raw input)
+tools/knowledge/generated/stage8c-mendeley-food-qc.json

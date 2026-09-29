@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Canonical Android conversion of Gate 3B-1A V2.
+  Source SHA-256: 5070d9917c3a96f6213268b0dea1ac6c458082ec10dbdfb0aeec60f2c8c421d2
+  Geometry SHA-256: c582228c56138e5213cb78eca7f34bbf668f5e5128e224522ba414ce1224e60a
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <group
+        android:name="fitdesi_mark"
+        android:scaleX="0.81658692185007975"
+        android:scaleY="0.81658692185007975"
+        android:translateX="-11.023923444976049"
+        android:translateY="4.8995215311004472">
+        <path
+            android:name="outer_d"
+            android:fillColor="#FF6A00"
+            android:pathData="M 387 288 L 772 288 C 945 288 1085 438 1085 624 C 1085 806 946 954 775 954 L 608 954 C 603 954 600 951 600 946 L 600 859 C 600 820 632 789 671 789 L 771 789 C 850 789 911 716 911 624 C 911 530 847 457 769 457 L 282 457 C 266 457 257 439 257 414 C 257 344 315 288 387 288 Z" />
+        <path
+            android:name="inner_f"
+            android:fillColor="#FF6A00"
+            android:pathData="M 356 531 L 608 531 C 608 585 583 652 548 681 C 538 688 526 692 514 692 L 357 692 L 357 850 C 357 904 313 948 258 948 L 207 948 C 201 948 196 943 196 937 L 196 675 C 196 595 268 531 356 531 Z" />
+        <path
+            android:name="core"
+            android:fillColor="#FF6A00"
+            android:pathData="M 828.267 626.657 A 101.4 101.4 0 1 0 625.467 626.657 A 101.4 101.4 0 1 0 828.267 626.657 Z" />
+    </group>
+</vector>

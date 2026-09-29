@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fd-workout-repeatable-plan",
+    "title": "Repeatable goal-based plan",
+    "keywords": [
+      "workout",
+      "plan",
+      "strength",
+      "fat loss",
+      "muscle"
+    ],
+    "goals": [
+      "build muscle",
+      "get stronger",
+      "fat loss"
+    ],
+    "experienceLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ],
+    "equipment": [],
+    "guidance": "Choose a weekly plan that fits available days and equipment, record completed work, and progress only when technique and recovery remain consistent.",
+    "priority": 14,
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "workout-repeatable-plan-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-07-16",
+      "modifiedByFitDesi": false,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "fd-food-simple-daal-bowl",
+    "name": "Simple Daal Bowl",
+    "category": "legumes",
+    "servingDescription": "One user-measured bowl",
+    "aliases": [
+      "dal",
+      "lentil curry"
+    ],
+    "dietaryTags": [
+      "vegetarian",
+      "halal-compatible"
+    ],
+    "nutritionEstimate": null,
+    "uncertaintyNote": "Ingredients, oil, water, and bowl size vary. Use a verified recipe or measured ingredients before assigning calories or macros.",
+    "goals": [
+      "balanced meals",
+      "protein foods"
+    ],
+    "source": {
+      "sourceName": "FitDesi AI Build Week authors",
+      "sourceRepository": "https://github.com/mohammadusamashaikh9-cmd/fitdesi-ai-build-week",
+      "sourceRecordId": "food-simple-daal-bowl-v1",
+      "licenseIdentifier": "MIT",
+      "licenseScope": "Original FitDesi-authored knowledge record",
+      "retrievedAt": "2026-07-16",
+      "modifiedByFitDesi": true,
+      "redistributionStatus": "VERIFIED",
+      "licenseStatus": "VERIFIED",
+      "attribution": "FitDesi AI project-authored content; see repository LICENSE."
+    }
+  }
+]

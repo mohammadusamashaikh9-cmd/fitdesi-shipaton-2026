@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Safe-zone wrapper for the system-tinted single-color V2 mark. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="90dp"
+        android:height="90dp"
+        android:drawable="@drawable/ic_fitdesi_mark_monochrome"
+        android:gravity="center" />
+</layer-list>

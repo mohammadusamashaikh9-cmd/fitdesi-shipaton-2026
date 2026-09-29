@@ -1,0 +1,20 @@
+{
+  "contractName": "PUBLIC_SAFE_FOOD_PROJECTION_V1",
+  "description": "Public-safe runtime nutrition projection: 39 records satisfying the recorded eligibility contract. Public-only validation checks this snapshot but does not reproduce its private derivation.",
+  "generatedAt": "2026-09-24",
+  "derivationEvidence": "PRIVATE_HISTORY_ONLY_NOT_EXPORTED",
+  "projectionAsset": "mobile/app/src/main/assets/pakistani_food_catalogue_public.json",
+  "eligibilityGate": "isLoggable && licenceStatus==VERIFIED_COMMERCIAL && fitDesiReviewStatus==FITDESI_NUTRITION_VERIFIED && nutritionBasis in {VERIFIED_PER_SERVING,VERIFIED_PER_100G,VERIFIED_RECIPE_YIELD} && calorie/macro bounds",
+  "recordCount": 39,
+  "reviewedLoggableCount": 39,
+  "reviewRequiredCount": 0,
+  "sourceClassCounts": {
+    "USDA_BRANDED_LABEL_VERIFIED": 1,
+    "USDA_FNDDS_VERIFIED": 11,
+    "USDA_FOUNDATION_VERIFIED": 15,
+    "USDA_SR_LEGACY_VERIFIED": 12
+  },
+  "projectionRecordsSha256": "55d39db92859f1cefbaeec79ab52749d38ec957dde594148d205b258ee1859b1",
+  "projectionFileSha256": "1a2c0d6d3ea007edec1526c67fa06ed6b9be4ecb5a6784c84d58ae99bca6fb5c",
+  "historicalEvidenceNote": "This PUBLIC PROJECTION checksum is separate from and does not redefine the historical engineering catalogue checksum dfd9d6ceb629e3f504b79f74ff1db63213f9810c560371b9677208106a56f5a4. The private derivation is not included or proven by the public-only validator."
+}
