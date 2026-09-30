@@ -91,7 +91,7 @@ More original Android captures: [Workout Routines and History](assets/screenshot
   <img src="assets/marketing/fitdesi-feature-plus.png" alt="FitDesi Basic and Plus feature composition — Test Store QA only" width="800">
 </p>
 
-RevenueCat evidence is limited to manager-supplied Test Store QA: a Monthly purchase activated Plus, Profile and paywall presented Plus, restart while the membership remained active resolved Plus again from CustomerInfo, and the tested active-user Restore path returned Plus active. This is not production Google Play billing, cross-install/store-history restore, publicly distributed APK, or real-revenue evidence. Production Remote AI remains OFF and unlaunched.
+RevenueCat evidence is limited to validated Test Store QA: a Monthly purchase activated Plus, Profile and paywall presented Plus, restart while the membership remained active resolved Plus again from CustomerInfo, and the tested active-user Restore path returned Plus active. This is not production Google Play billing, cross-install/store-history restore, publicly distributed APK, or real-revenue evidence. Production Remote AI remains OFF and unlaunched.
 
 ## Current development status
 
