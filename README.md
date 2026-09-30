@@ -6,6 +6,10 @@
 
 FitDesi AI is an Android fitness application with a useful local core and South Asian depth. It brings daily fitness context, on-device coaching, structured workouts, practical planning, progress tools, and carefully separated nutrition data into one coherent experience.
 
+**RevenueCat Shipaton 2026 · Next Gen entry** — this repository is the public source snapshot for the FitDesi AI `0.2.0-alpha` current tester preview.
+
+**Demo:** [FitDesi AI — Shipaton 2026 Next Gen Demo](https://youtu.be/bjr0ImZrxWM)
+
 ## Useful with or without the cloud
 
 FitDesi is designed to remain useful without a paid model API or an always-on connection. Profile, routine, workout, calorie, and preference data stay within the app's existing persistence layers, while deterministic local engines provide the core Coach and planning behavior.
@@ -16,7 +20,7 @@ FitDesi is designed to remain useful without a paid model API or an always-on co
 
 ## Product experience
 
-The feature artwork in this section uses generated marketing compositions based on FitDesi product visuals. It illustrates the capabilities described below; it is not an unedited Android capture or release-evidence set.
+The feature artwork in this section uses generated marketing compositions based on FitDesi product visuals. The stylized phone and device frames are presentation artwork, not Android device captures or evidence of the physical hardware used for testing. These compositions illustrate the capabilities described below; the separate **Real Android Screenshots** section contains the actual unedited tester captures.
 
 ### Offline AI Coach
 
@@ -87,13 +91,13 @@ More original Android captures: [Workout Routines and History](assets/screenshot
   <img src="assets/marketing/fitdesi-feature-plus.png" alt="FitDesi Basic and Plus feature composition — Test Store QA only" width="800">
 </p>
 
-Purchase and restore evidence is limited to manager-supplied RevenueCat Test Store QA. It is not production Google Play billing, cross-install/store-history restore, or real-revenue evidence. Production Remote AI remains OFF and unlaunched.
+RevenueCat evidence is limited to manager-supplied Test Store QA: a Monthly purchase activated Plus, Profile and paywall presented Plus, restart while the membership remained active resolved Plus again from CustomerInfo, and the tested active-user Restore path returned Plus active. This is not production Google Play billing, cross-install/store-history restore, publicly distributed APK, or real-revenue evidence. Production Remote AI remains OFF and unlaunched.
 
 ## Current development status
 
-FitDesi AI `0.2.0-alpha` is an **early product-development preview**. The Android application is actively evolving, and the public build should be treated as a tester preview rather than a Play Store-ready release. The core local workflow is available; data provenance review, broader device coverage, and production-service decisions remain ongoing.
+This repository is a public source snapshot of FitDesi AI `0.2.0-alpha`. The Android application shown is a **current tester preview**, not a publicly distributed APK or Play Store-ready release. The core local workflow is available; data provenance review, broader device coverage, and production-service decisions remain ongoing.
 
-The Basic / Plus / Pro boundaries above are the current preview positioning. Manager-supplied RevenueCat Test Store QA evidence records that a Monthly purchase activated Plus, Profile and paywall presented Plus, restart while the membership remained active resolved Plus again from CustomerInfo, and the tested active-user Restore path returned Plus active. That evidence is not production Google Play billing, cross-install/store-history restore, or real-revenue evidence. Pro is **Coming Soon** and cannot be purchased. Rewarded Boost exists only in the QA/debug candidate and grants bounded temporary access; release rewarded ads remain disabled. Production Remote AI is OFF and unlaunched. Google Play production publication is deferred.
+The Basic / Plus / Pro boundaries above are the current preview positioning. Pro is **Coming Soon** and cannot be purchased. Rewarded Boost exists only in the QA/debug candidate and grants bounded temporary access; release rewarded ads remain disabled. Production Remote AI is OFF and unlaunched. Google Play production publication is deferred.
 
 ## Offline-first architecture
 
@@ -152,13 +156,15 @@ Provider credentials and other secrets remain server-side and are supplied by th
 
 ## Technology stack
 
-- Kotlin, Jetpack Compose, and Material 3
-- Android ViewModels, Kotlin coroutines, and Flow
-- Room and DataStore
-- Bundled exercise and Pakistani-food knowledge assets
-- Retrofit/OkHttp provider boundary, disabled for the current offline runtime
-- Gradle and JDK 17; private CI workflow configuration is omitted from the
-  proposed public source export
+- **Android:** Kotlin, Jetpack Compose, and Material 3
+- **Architecture:** ViewModels, Kotlin Coroutines, Flow, Room, and DataStore
+- **Monetization:** RevenueCat Purchases; Shipaton candidate evidence is limited to RevenueCat Test Store QA, and production Google Play billing is not launched
+- **Services:** Firebase Authentication and the Firebase Android configuration boundary
+- **Networking:** Retrofit, OkHttp, and Moshi
+- **Backend:** Node.js 22 protected remote-provider architecture; production Remote AI remains OFF and unlaunched
+- **Testing:** JUnit, Robolectric, Roborazzi, and MockWebServer
+- **Data:** reviewed exercise knowledge, verified USDA nutrition records, and South Asian discovery data
+- **Build tooling:** Gradle and JDK 17; private CI workflow configuration is omitted from the public source snapshot
 
 ## Data privacy
 
@@ -170,10 +176,14 @@ FitDesi AI provides general fitness and nutrition information only. It does not 
 
 ## Roadmap
 
-- Expand provenance and serving-basis review for food data
-- Improve device coverage and tester feedback loops
-- Continue accessibility, localization, and offline-quality improvements
-- Evaluate optional remote capabilities only through the existing protected provider boundaries
+The following are future directions, not capabilities claimed for the current tester preview:
+
+- Explore lightweight on-device intelligence for Basic and offline users
+- Research posture and form assistance using efficient device-side machine learning
+- Investigate food-image analysis and recipe-to-nutrition workflows only after provenance and serving-basis validation
+- Develop a deeper adaptive Remote AI Coach for Pro through the protected server gateway
+- Broaden verified South Asian and international nutrition coverage
+- Continue accessibility, localization, device coverage, and offline-quality improvements
 
 ## Contributing
 
@@ -189,4 +199,4 @@ FitDesi AI is released under the [MIT License](LICENSE). See [THIRD_PARTY_NOTICE
 
 ## Public-source boundary
 
-This proposed export intentionally omits private engineering history, internal project context, historical audit archives, private food inputs, private CI configuration, credentials, signing material, and build outputs. See the [public export plan](docs/PUBLIC_EXPORT_PLAN.md) and [asset provenance record](docs/ASSET_PROVENANCE.md). Public-only food validation proves the exported snapshot and checksum contract; it does not prove the omitted private derivation.
+This public source repository intentionally omits private engineering history, internal project context, historical audit archives, private food inputs, private CI configuration, credentials, signing material, and build outputs. See the [public export plan](docs/PUBLIC_EXPORT_PLAN.md) and [asset provenance record](docs/ASSET_PROVENANCE.md). Public-only food validation proves the exported snapshot and checksum contract; it does not prove the omitted private derivation.
